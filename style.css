@@ -1,0 +1,1358 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    /* font-family:  Verdana, sans-serif; */
+}
+
+
+.main-container{
+    width: 100%;
+    height: auto;
+
+}
+
+.navbar-section{
+    width: 100%;
+    height: auto;
+
+}
+
+.nav-top{
+    width: 100%;
+    height: auto;
+    padding-block: 5px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 22px;
+    /* padding-inline: 10px; */
+padding-right: 50px;
+/* font-size: 20px; */
+
+}
+
+.nav-top i{
+    font-size: 22px;
+
+}
+
+.nav-top a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.918);
+    font-size: 12px;
+}
+
+.nav-top a:hover{
+    transition: all 0s 0s;
+
+   border-bottom: 1px solid white;
+}
+
+.nav-top i:hover{
+    transition: all 0s 0s;
+    color: rgba(4, 103, 252, 0.938);
+    cursor: pointer;
+}
+
+
+.nav-bottom{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* padding-block: 20px; */
+
+}
+
+
+.left-nav{
+    width: 28%;
+   height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background-color: rgb(7, 187, 7);
+}
+
+.left-nav img{
+
+height: 32%;
+}
+
+.middel-nav{
+    width: 42%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.nav-bottom a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+}
+
+.nav-bottom a:hover{
+    transition: all 0s 0s;
+    color: green;
+}
+
+.right-nav{
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: white;
+}
+
+
+.right-nav span{
+    /* width: 30%; */
+    /* height: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.right-nav i{
+    font-size: 33px;
+    color: rgba(0, 0, 0, 0.534);
+}
+
+
+.right-nav i:hover{
+
+transition: all 0s 0s;
+color: black;
+cursor: pointer;
+
+}
+
+
+.hidden-nav{
+    display: none;
+}
+
+
+.main-img{
+    width: 100%;
+    height:  100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.images{
+    width: 92%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.left-img{
+    width: 60%;
+    height: 100%;
+background: url(./Solar_Panel_Workers2.jpeg);
+background-position: center;
+background-size: cover;
+display: flex;
+align-items: start;
+justify-content: end;
+flex-direction: column;
+padding: 3%;
+
+}
+
+
+
+.left-img a{
+    font-size: 45px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+.images a:hover{
+    transition: all 0s 0s ;
+    border-bottom: 2px solid white;
+}
+
+
+.right-img{
+    width: 40%;
+    height: 100%;
+   
+
+}
+
+
+.top-img{
+    width: 100%;
+    height: 50%;
+    background: url(./Batteries\ part\ 2-Homepage\ FeaturedImg.png);
+    background-position: center;
+background-size: cover;
+display: flex;
+align-items: start;
+justify-content: end;
+flex-direction: column;
+padding: 7%;
+
+}
+
+
+.right-img a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.bottom-img{
+    width: 100%;
+    height: 50%;
+    background: url(./CESER\ Hurricane\ Response-Homepage\ FeaturedImg\ 4.png);
+    background-position: center;
+background-size: cover;
+display: flex;
+align-items: start;
+justify-content: end;
+flex-direction: column;
+padding: 7%;
+}
+
+
+
+.investmant-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 50px;
+    flex-direction: column;
+    background-color: #EEF5E3;
+}
+
+
+.invest-nav{
+    width: 80%;
+    height: auto;
+    padding-block: 28px;
+    padding-left: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+
+
+
+.invests{
+    width: 72%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 1px;
+
+}
+
+
+.invest-box:first-child{
+    border-right: 2.7px solid rgba(128, 128, 128, 0.596);
+}
+
+.invest-box{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+gap: 10px;
+
+}
+
+
+.invest-contant{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    /* gap: 10px; */
+    /* padding-block: 20px ; */
+}
+
+
+.head-int{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    /* background-color: red; */
+    padding-left: 25px;
+  
+    
+}
+
+.head-int a{
+    font-size: 25px;
+    text-decoration: none;
+color: #3E7EA8;
+font-weight: 600;
+}
+
+
+.left-invest{
+ width: 35%;
+ height: 100%;
+ line-height: 25px;
+ font-size: 18px;
+ 
+}
+
+.right-invest{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+
+
+.invest-box img{
+    height: 200px;
+    padding-top: 55px;
+    
+}
+
+
+.left-invest a{
+    text-decoration: none;
+   
+    color: #3E7EA8;
+}
+
+
+
+.blog-section{
+    width: 100%;
+    height: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+/* padding-block: 40px; */
+}
+
+
+.blogs{
+    width: 100%;
+    height: auto;
+background-color: white;
+/* padding: 30px; */
+padding: 3%;
+}
+
+
+.blog-nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.blog-nav h6{
+    font-size: 35px;
+}
+
+.blog-nav p{
+    font-size: 14x;
+}
+
+
+.blog-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 10px;
+}
+
+
+.blog-card1{
+    width: 31%;
+    height: 250px;
+    background: url(./Microgrid\ for\ Underserved\ and\ Indigenous\ Communities_899x600.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.blog-card2{
+    width: 31%;
+    height: 250px;
+    background: url(./100324-blog-dune.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.blog-card3{
+    width: 31%;
+    height: 250px;
+    background: url(./DOE-IE-3403-FOA-prize-social-FZ-1200.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.blog-card1 .card-bg{
+    width: 90%;
+    height: auto;
+    background-color: white;
+   padding: 10px;
+   position: absolute;
+   bottom: -15%;
+   right: 0%;
+   display: flex;
+   flex-direction: column;
+   gap: 1px;
+
+}
+
+.blog-card2 .card-bg{
+    width: 90%;
+    height: auto;
+    background-color: white;
+   padding: 10px;
+   position: absolute;
+   bottom: 0%;
+   right: 0%;
+   display: flex;
+   flex-direction: column;
+   gap: 1px;
+
+}
+
+
+
+.blog-card3 .card-bg{
+    width: 90%;
+    height: auto;
+    background-color: white;
+   padding: 10px;
+   position: absolute;
+   bottom: -20%;
+   right: 0%;
+   display: flex;
+   flex-direction: column;
+   gap: 1px;
+
+}
+
+
+
+
+.card-bg a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.card-bg a:hover{
+    transition: all 0s 0s;
+color: #3E7EA8;
+   
+}
+
+
+.news-section{
+    width: 100%;
+    height:auto;
+    padding: 3%;
+}
+
+.nav-news{
+    width: 100%;
+height: auto;
+padding-block: 5px;
+gap: 5px;
+display: flex;
+flex-direction: column;
+/* font-size: 20px; */
+}
+
+.nav-news h6{
+    font-size: 37px;
+}
+
+.nav-news p{
+    font-size: 14px;
+}
+
+
+.news{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content:start;
+    gap: 90px;
+}
+
+.left-news{
+    width: 45%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 32px;
+
+
+}
+
+.left-news p{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 9px;
+    padding-left: 20px;
+}
+
+.news hr{
+    width: 90%;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+
+.right-news{
+    width: 45%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 25px;
+
+}
+
+.right-news p{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 9px;
+    padding-left: 20px;
+}
+
+.news a{
+    
+font-size: 16px;
+text-decoration: none;
+color: black;
+font-weight: 600;
+}
+
+.news a:hover{
+    transition: all 0s 0s ;
+    border-bottom: 1px solid black;
+}
+
+
+.prioritie-section{
+    width: 100%;
+    height: auto;
+    padding: 3%;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.priorities{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 60px;
+
+}
+
+
+.priorities-box{
+    width: 250px;
+    height: 250px;
+}
+
+
+.prioritie-section p{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+.priorities-box p{
+    font-size: 22px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-block: 20px;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+
+}
+
+.priorities-box:first-child{
+    background: url(./Climate_previews2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.priorities-box:nth-child(2){
+    background: url(./Jobs_Preview3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.priorities-box:nth-child(3){
+    background: url(./Energy_Justice4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.priorities-box:last-child{
+    background: url(./Investment_preview.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.signup-section{
+    width: 95%;
+    height: auto;
+    padding: 3%;
+
+    padding-bottom: 100px;
+}
+
+.sign{
+    width: 100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 30px;
+    /* padding: 50px; */
+    padding: 2%;
+    background-color: #292929;
+    /* gap: 20px; */
+    box-shadow: -15px 15px  15px   #3E7EA8;
+}
+
+.left-sign{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    color: #FFFFFF;
+    /* text-align: start; */
+}
+
+.left-sign h5{
+    font-size: 30px;
+}
+
+.left-sign p{
+    font-size: 18px;
+    gap: 10px;
+}
+
+
+.right-sign{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.right-sign input{
+width: 90%;
+/* color: bla; */
+height: 50px;
+
+}
+
+.right-sign button{
+width: 10%;
+height: 50px;
+color: white;
+background-color: #292929;
+border: 1px solid white;
+font-size: 19px;
+}
+
+
+.main-fooder{
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    color: white;
+    background-color: #151515;
+    /* padding-inline: 10px; */
+}
+
+.fooder-box{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.fooder1 span{
+    /* flex-direction: row; */
+    display: flex;
+    gap: 10px;
+}
+
+.fooder1{
+    width: 25%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.fooder1 p{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+
+.fooder2{
+    width: 25%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.fooder2 span{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fooder3{
+    width: 25%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.fooder3 span{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.fooder4{
+    width: 25%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+.fooder4 span{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+.main-fooder a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.main-fooder h5{
+    font-size:20px;
+}
+
+
+.main-fooder a:hover{
+    transition: all   0s 0s;
+    /* border-bottom: 1px solid white; */
+text-decoration: underline;
+    cursor: pointer;
+
+    /* text-underline-offset: 1px solid white; */
+    
+}
+
+
+
+.fooder-box:hover{
+    transition: all 0s 0s ;
+    color: #3E7EA8;
+
+border: 1px solid  #3E7EA8;
+}
+
+
+.last-fooder{
+    width: 100%;
+    height: auto;
+    padding:5%;
+    display: flex;
+    align-items: start;
+    padding-left: 15%;
+    gap: 10px;
+    /* text-align: start; */
+background-color: #000000;
+    justify-content: center;
+    flex-direction: column;
+color: white;
+}
+
+.last-fooder ul{
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.last-fooder ul li{
+    font-size: 15px;
+}
+
+.list{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.last-fooder ul li:hover{
+    transition: all 0s 0s;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+
+
+@media (max-width:480px) {
+
+    .main-container{
+        width: 100%;
+        height: auto;
+
+    }
+
+    .navbar-section{
+        display: none;
+
+    }
+
+
+    .hidden-nav{
+        display: inline;
+        width: 100%;
+        height: 5em;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        /* padding-block: 2em; */
+        padding-inline: 1em;
+        gap: 5em;
+    }
+
+    .hidden-nav img{
+        height: 1.6em;
+       
+    }
+
+    .hidden-nav i{
+        font-size: 2.3em;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.747);
+    }
+
+    .hidden-nav span{
+        display: flex;
+        gap: 3em;
+    }
+
+
+.main-img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.images{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+
+.left-img{
+    width: 100%;
+    height: 26em;
+    padding: 1em;
+}
+
+.left-img a{
+    font-size:2.3em;
+
+}
+
+.right-img{
+    width: 100%;
+    height: auto;
+
+}
+
+.top-img{
+    width: 100%;
+    height: 22em;
+    padding: 1em;
+
+}
+
+.bottom-img{
+    width: 100%;
+    height: 22em;
+    padding: 1em;
+}
+
+
+.investmant-section{
+    width: 100%;
+    height: auto;
+padding: 0%;
+
+}    
+
+
+.invest-nav{
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    padding-top: 2em;
+    
+    /* align-items: start; */
+}
+
+
+.invests{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+/* gap: 1em; */
+    border-top: 1.3em solid white;
+}
+
+
+.invest-box{
+    width: 93%;
+    height: auto;
+    padding-block: 1em;
+
+}
+
+.invest-box:first-child{
+   
+    border: none;
+}
+
+.invest-box:last-child{
+    border-top: 2px solid rgba(128, 128, 128, 0.473);
+}
+
+.head-int{
+    width: 100%;
+    height: auto;
+}
+
+.invest-contant{
+    width: 100%;
+    height: auto;
+    flex-direction: column-reverse;
+    /* gap: 1em; */
+}
+
+
+.left-invest{
+    width: 100%;
+    height: auto;
+}
+
+.right-invest{
+    width: 100%;
+    height: auto;
+    padding-block: 0.5em;
+   
+}
+
+.right-invest img{
+padding: 0%;
+height: 100%;
+width: 100%;
+}
+
+
+.blog-section{
+    width: 100%;
+height: auto;
+
+
+}
+
+.blogs{
+    width: 100%;
+    height: auto;
+
+}
+
+.blog-nav{
+    width: 100%;
+    height: auto;
+    gap: 0.2em;
+}
+
+
+
+.blog-box {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: start;
+}
+
+.blog-card1{
+    width: 90%;
+    height: 12em;
+
+}
+
+.blog-card2{
+    display: none;
+}
+
+.blog-card3{
+    display: none;
+}
+
+.blog-card1 .card-bg{
+width: 90%;
+/* height: 1em; */
+padding: 0%;
+bottom: -11%;
+gap: 0.1em;
+
+
+}
+
+.card-bg a{
+    font-size: 0.8em;
+}
+
+.news-section{
+    width: 100%;
+    height: auto;
+padding: 1em;
+padding-block: 2em;
+}
+
+
+.news{
+    width: 100%;
+    height: auto;
+    gap: 1em;
+    /* display: flex; */
+    flex-direction: column;
+    
+}
+
+
+.left-news p{
+    padding: 0%;
+    width: 100%;
+   
+}
+
+.news hr{
+    width: 100%;
+}
+.left-news{
+    width: 100%;
+    height: auto;
+    gap: 1em;
+}
+
+.right-news{
+    width: 100%;
+ gap: 1em;
+    height: auto;
+}
+
+.right-news p{
+    padding: 0%;
+    width: 100%;
+   
+}
+
+
+.news a{
+    font-size: 0.9rem;
+}
+
+
+.hr{
+    display: none;
+}
+
+
+.prioritie-section{
+    width: 100%;
+    height: auto;
+    padding: 1em;
+}
+
+.priorities{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.priorities p{
+    font-size: 1em;
+}
+
+.priorities-box{
+    width: 100%;
+    height: 16em;
+}
+
+.signup-section{
+    width: 100%;
+    height: auto;
+    padding: 1em;
+}
+
+
+
+.sign{
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    padding-block: 5%;
+    flex-direction: column;
+   gap: 0.6em;
+}
+
+.left-sign{
+    width: 100%;
+    height: auto;
+    gap: 0.6em;
+}
+
+.left-sign h5{
+    font-size: 1.5em;
+}
+
+.left-sign p{
+    font-size: 0.9em;
+}
+
+
+.right-sign{
+    width: 100%;
+    height: auto;
+    /* align-items: start; */
+}
+
+
+.right-sign input{
+    width: 80%;
+    /* height: auto; */
+}
+
+.right-sign button{
+    width: 17%;
+}
+
+
+.main-fooder{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    flex-direction: column;
+    gap: 0.7em;
+
+}
+
+.fooder1{
+    width: 100%;
+    height: auto;
+    gap: 1em;
+    padding: 1em;
+    /* padding-top: 10em; */
+    padding-block: 2em;
+    /* flex-direction: column; */
+    
+}
+
+
+.fooder2{
+
+width: 100%;
+/* padding-top: 3em; */
+height: auto;
+padding-block: 1em;
+border-top: 1px solid rgba(255, 255, 255, 0.63);
+
+}
+
+
+.fooder2 span{
+    display: none;
+}
+
+
+.fooder2 h5{
+    font-size: 1rem;
+}
+
+
+.fooder3{
+
+    width: 100%;
+    height: auto;
+    padding-block: 1em;
+    border-top: 1px solid rgba(255, 255, 255, 0.63);
+    
+    }
+    
+    
+    .fooder3 span{
+        display: none;
+    }
+    
+    
+    .fooder3 h5{
+        font-size: 1rem;
+    }
+
+
+    .fooder4{
+
+        width: 100%;
+        height: auto;
+        padding-block: 1em;
+        border-top: 1px solid rgba(255, 255, 255, 0.63);
+        
+        }
+        
+        
+        .fooder4 span{
+            display: none;
+        }
+        
+        
+        .fooder4 h5{
+            font-size: 1rem;
+        }
+
+.fooder-box{
+    height: 2em;
+    width: 2em;
+}
+
+.last-fooder{
+    width: 100%;
+    height: auto;
+    padding: 11%;
+    /* flex-direction: column
+    ; */
+    padding-left: 11%;
+    
+display: flex;
+
+}
+
+.list{
+    width: 100%;
+    display: flex;
+}
+
+.last-fooder ul{
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: start;
+    /* width: 100%; */
+}
+
+
+}
+
